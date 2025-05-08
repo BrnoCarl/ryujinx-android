@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-RYU_URL="https://github.com/Ryujinx/release-channel-master/releases/download/1.1.1376/ryujinx-1.1.1376-linux_arm64.tar.gz"
+RYU_URL="https://github.com/Ryubing/Stable-Releases/releases/download/1.3.1/ryujinx-1.3.1-linux_arm64.tar.gz"
 RYU_ARCHIVE="ryujinx-1.1.1376-linux_arm64.tar.gz"
 
 err() {
@@ -29,7 +29,7 @@ download_ryujinx() {
 }
 
 setup_ryujinx_menu() {
-    wget https://raw.githubusercontent.com/Ishan09811/RyujinxMobile/main/ryujinx_menu.zip -O /data/data/com.termux/files/home/ryujinx_menu.zip
+    wget https://github.com/BrnoCarl/ryujinx-android/blob/main/ryujinx_menu.zip -O /data/data/com.termux/files/home/ryujinx_menu.zip
     unzip /data/data/com.termux/files/home/ryujinx_menu.zip -d /data/data/com.termux/files/home/ryujinx_menu
     echo "alias Ryujinx='/data/data/com.termux/files/home/ryujinx_menu/ryujinx.sh'" >> ~/.bashrc
     source ~/.bashrc
