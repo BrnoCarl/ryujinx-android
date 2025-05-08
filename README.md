@@ -15,7 +15,7 @@ This is a workaround using Termux to run Ryujinx on arm64 using Proot Ubuntu.
 2. Copy and paste the following command into `Termux` and run it:
 
    ```sh
-   bash <(curl -sL https://github.com/BrnoCarl/ryujinx-android/blob/main/install.sh)
+   bash <(curl -sL https://raw.githubusercontent.com/BrnoCarl/ryujinx-android/refs/heads/main/install.sh)
    ```
 
 ## Usage
